@@ -1,0 +1,23 @@
+<!DOCTYPE Html>
+<head>
+	<link rel="stylesheet" href="css/default.css">
+</head>
+<body>
+<div id="video_container">
+	<div id="video_overlay"></div>
+	<div id="hiddenbutton" onclick="toggle()"></div>
+	<object id="streamwindow" type="application/x-shockwave-flash" height="1100%" width="100%" data="http://www.twitch.tv/widgets/live_embed_player.swf?channel=AdmiralBulldog" bgcolor="#000000">
+		<param name="allowFullScreen" value="false">
+		<param name="allowScriptAccess" value="always">
+		<param name="allowNetworking" value="all">
+		<param name="movie" value="http://www.twitch.tv/widgets/live_embed_player.swf">
+		<param name="flashvars" value="hostname=www.twitch.tv&amp;channel=AdmiralBulldog&amp;auto_play=true&amp;start_volume=100">
+		<param name="wmode" value="opaque">
+	</object>
+</div>
+<div id="chat_container">
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/core.js"></script>
+</body>
+</html>

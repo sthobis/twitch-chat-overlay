@@ -1,0 +1,43 @@
+body {
+    overflow:hidden;
+    background-color: #000;
+}
+
+#video_container {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+}
+
+#video_overlay {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 80%;
+	height: 95%;
+	z-index: 2;	
+}
+
+#hiddenbutton {
+	position: absolute;
+	z-index: 3;
+	top: 0;
+	left: 0;
+	height: 50px;
+	width: 50px;
+}
+
+#hiddenbutton:hover {
+	cursor: pointer;
+}
+
+#chat_container {
+	position: absolute;
+	right: 0;
+	bottom: 30;
+	height: 95%;
+	z-index: 2147483647;
+}
